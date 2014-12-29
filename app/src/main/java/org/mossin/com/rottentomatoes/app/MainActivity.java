@@ -30,6 +30,7 @@ public class MainActivity extends Activity {
 
         this.lista =(ListView)findViewById(R.id.listview);
         this.vistaWeb =(WebView)findViewById(R.id.vistaWeb);
+        //Este es un pequeño cambio
 
         List items = new ArrayList();
         items.add( new Item(R.drawable.uno,"Big Hero 6","http://www.rottentomatoes.com/m/big_hero_6/"));
